@@ -96,7 +96,7 @@ h1. Logistics
 * Rapid growth of e-commerce in the US can be attributed to infrastructure already in place and an easy availability of a physical delivery system. Such systems are very rare in developing countries (Hawk, 2004)
 * Some developing countries still lack proper postal services, difficulties can arise in the delivery of products due to a lack of actual street addresses.(Kshetri, 2007)
 
-!/images/fedex.gif(Fedex)!
+p=. !http://presentation.givefoo.com/images/fedex.gif(Fedex)!  !http://presentation.givefoo.com/images/ups.gif(UPS)!
 
 h1. Prototype Requirements
 * Allow off-line access to orders, customers and products
