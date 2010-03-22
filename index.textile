@@ -109,9 +109,10 @@ h1. Payment Gateways
 * 85 percent of the worlds on-line population has used the Internet to make a purchase
 * 60% of global on-line consumers used their credit card for a recent on-line purchase, while one in four on line consumers chose Paypal. (Trends in Online Shopping. In The Nielsen Company, 2008)
 
-p=. *How does cash get from the customer to the organisation?*
+h4. How does cash get from the customer to the organisation?
 
 * Gateways are mainly US focused requiring a US bank account.  
+* Will the payment gateway transfer to the non-profits bank account?
 * Transaction fees are preferable to high monthly fees for smaller transaction rates.
 * The choice of a payment gateway package will be very important for each NGO as policies within these payment gateways may impact the NGOs business and possibly impact any funds transferred.
 
@@ -193,7 +194,7 @@ h1. Summary
 
 
 
-h3. Where to Next
+h1. Where to Next
 * Further understanding end-user perspectives and their view of social realities when operating a business on-line from the third world
 * Finalise Database Design
 * Designing and developing user interface
