@@ -109,7 +109,7 @@ h1. Payment Gateways
 * 85 percent of the worlds on-line population has used the Internet to make a purchase
 * 60% of global on-line consumers used their credit card for a recent on-line purchase, while one in four on line consumers chose Paypal. (Trends in Online Shopping. In The Nielsen Company, 2008)
 
-How does cash get from the customer to the organisation?
+p=. *How does cash get from the customer to the organisation?*
 
 * Gateways are mainly US focused requiring a US bank account.  
 * Transaction fees are preferable to high monthly fees for smaller transaction rates.
@@ -193,7 +193,7 @@ h1. Summary
 
 
 
-h2. Where to Next
+h3. Where to Next
 * Further understanding end-user perspectives and their view of social realities when operating a business on-line from the third world
 * Finalise Database Design
 * Designing and developing user interface
