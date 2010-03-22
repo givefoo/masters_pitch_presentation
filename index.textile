@@ -146,7 +146,7 @@ h1. Enter HTML5
 * Simpler end user experience, no need for bulky application
 * Everything in the browser
 
-p<. !http://presentation.givefoo.com/images/offline.png(HTML Offline overview)!
+p=. !http://presentation.givefoo.com/images/offline.png(HTML Offline overview)!
 
 h1. Data Synchronisation
 * Speed is the key. Synchronizing must be complete in seconds, that may be all a user is online for.
@@ -200,7 +200,7 @@ h2. Where to Next
 * Create and maintain all rspec / cucumber cases
 * Bringing everything together, application, payment gateways, logistics, cloud
 * Aid in the creation of first e-commerce shop,  Women Skill Development Multi Cooperative have requested the very first one.
-* Generating 1st official ransaction
+* Generating 1st official transaction
 * Success, hopefully!
 	
 

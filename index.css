@@ -1,14 +1,16 @@
 @import url(s6/slides.css); /* required to make the slide show run at all */
      
 html, body { color: white;
-             font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; }
+             font-family: Helvetica, Verdana, Geneva, Arial, sans-serif; }
 
-a:link, a:visited { color: white; }
-
-h1 { font-size: 30pt;  }
-h2 { font-size: 28pt;  }
-h3 { font-size: 25pt;  }
+a:link, a:visited { color: #eee; }
+h1, h2, h3 {text-align:center; background:#fff;color:#f1006c;}
+h1 { font-size: 28pt;  }
+h2 { font-size: 24pt;  }
+h3 { font-size: 18pt;  }
 p, li, td, th { font-size: 18pt; }
+
+li{ margin-bottom:20px; }
 
 pre { font-size: 16pt;  }
 
