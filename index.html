@@ -59,10 +59,18 @@
 <div class='slide'>
 
 <h1>E-Commerce for the developing world</h1>
-<p>Jonathan Clarke</p>
-<p>MCT626 Research Presentation</p>
-<p>NUI Galway &amp; Regis University</p>
-<p>March 2010</p>
+<p style="text-align:right;">Jonathan Clarke</p>
+<p style="text-align:right;">MCT626 Research Presentation</p>
+<p style="text-align:right;">NUI Galway &amp; Regis University</p>
+<p style="text-align:right;">March 2010</p>
+
+
+</div><div class='slide'>
+
+<h1>Scope of this presentation</h1>
+<p>Initial research concludes that developing countries lack basic services which have been taken for granted throughout the world.</p>
+<p>Electricity, Internet access and the availability of merchant banking systems have hindered companies from the developing world operating on the global market.</p>
+<p>I propose developing a prototype application which can allow organisations to realise an effective e&#8212;commerce strategy despite their environmental location.</p>
 
 
 </div><div class='slide'>
@@ -73,6 +81,8 @@
 	<li>Motivation</li>
 	<li>The Problem</li>
 	<li>Motivation</li>
+	<li>My Aim</li>
+	<li>Case Study</li>
 	<li>Barriers to E-Commerce</li>
 	<li>Prototype Requirements</li>
 	<li>Offline access</li>
@@ -136,13 +146,9 @@
 <ul>
 	<li>In January 2010, interviewed President of the Women Skill Development Multi Cooperative</li>
 	<li>Cleared many previous assumptions held about the barriers to e-commerce that they were facing as an organization</li>
-	<li><a href="http://presentation.givefoo.com/files/case_study_001">Case Study.pdf</a> &#8211; <a href="http://presentation.givefoo.com/files/interview_0.1.pdf">Transcript.pdf</a></li>
+	<li><a href="http://presentation.givefoo.com/files/case_study_001.pdf">Case Study.pdf</a> &#8211; <a href="http://presentation.givefoo.com/files/interview_0.1.pdf">Transcript.pdf</a></li>
 </ul>
-
-
-</div><div class='slide'>
-
-<h1>Barriers to E-Commerce</h1>
+<h2>Barriers to E-Commerce</h2>
 <ul>
 	<li>Government Policies</li>
 	<li>Internet Access</li>
@@ -220,6 +226,7 @@
 	<li>Initial Prototype to allow Paypal and Authorise.Net</li>
 	<li>Maintain PCI requirements</li>
 	<li>Robust synchronisation from local database to master server and vice versa</li>
+	<li>Support tracking of Fedex packages (UPS also if time permits)</li>
 </ul>
 
 
@@ -240,21 +247,22 @@
 <h1>Enter HTML5</h1>
 <ul>
 	<li>W3C Candidate Recommendation stage expected to be complete in 2012</li>
-	<li>Future of the Internet</li>
+	<li><a href="http://dev.w3.org/html5/spec/">HTML5</a> is the future of the Internet</li>
 	<li>Allows for offline database support</li>
 	<li>Database stored within Web Browser</li>
 	<li>Simpler end user experience, no need for bulky application</li>
 	<li>Everything in the browser</li>
 </ul>
+<p style="text-align:left;"><img src="http://presentation.givefoo.com/images/offline.png" title="HTML Offline overview" alt="HTML Offline overview" /></p>
 
 
 </div><div class='slide'>
 
 <h1>Data Synchronisation</h1>
 <ul>
-	<li>Speed is the key. Synchronizing must be complete in seconds, that may be all a user is on the internet for.</li>
+	<li>Speed is the key. Synchronizing must be complete in seconds, that may be all a user is online for.</li>
 	<li>Utilize HTTP Socket Interfaces</li>
-	<li>Pass messages in JSON (JavaScript Object Notation), a lightweight data-interchange format</li>
+	<li>Pass messages in <a href="http://www.json.org">JSON</a> (JavaScript Object Notation), a lightweight data-interchange format</li>
 </ul>
 <h2>Node.JS</h2>
 <ul>
@@ -282,10 +290,10 @@ How do we know that it&#8217;s working?</h1>
 <h1>Everything shall live in the cloud:</h1>
 <ul>
 	<li>Horizontally scale servers on <a href="http://www.slicehost.org">Slicehost Virtual Servers</a></li>
-	<li>Amazon Cloudfront for faster content delivery around the world</li>
-	<li>Amazon Simple Storage Service (Amazon S3) for storing all assets</li>
-	<li>MongoDB as the scalable, high-performance, schema-free, document-oriented database</li>
-	<li>Everything hosted on Ruby on Rails for rapid development</li>
+	<li><a href="aws.amazon.com/cloudfront">Amazon Cloudfront</a> for faster content delivery around the world</li>
+	<li><a href="https://s3.amazonaws.com" title="Amazon S3">Amazon Simple Storage Service</a> for storing all assets</li>
+	<li><a href="http://www.mongodb.org">MongoDB</a> as the scalable, high-performance, schema-free, document-oriented database</li>
+	<li>Main framework is <a href="http://rubyonrails.org/">Ruby on Rails</a> for rapid development</li>
 </ul>
 <p style="text-align:center;"><object width="640" height="385"><param name="movie" value="http://www.youtube.com/v/ae_DKNwK_ms&hl=en_US&fs=1&"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/ae_DKNwK_ms&hl=en_US&fs=1&" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="640" height="385"></embed></object></p>
 <p style="text-align:center;">The non-profit organisation is oblivious to all of this!</p>
@@ -297,16 +305,12 @@ How do we know that it&#8217;s working?</h1>
 <ul>
 	<li>HTML5 is going to change the web as we see it</li>
 	<li>Node JS is very exciting stuff, with lots of potential.</li>
-	<li>Sending payments from the customer to the non-profit organisation is the biggest challenge</li>
+	<li>Sending payments from the customer to the non-profit organisation in the developing world is the biggest challenge</li>
 	<li>Utilise open source applications everywhere</li>
 	<li>Taking advantage of the cloud to scale service rapidly if needed</li>
 	<li>Staff in non-profits are not technical whatsoever, adapting my language and approach to gathering information has been huge challenge.</li>
 </ul>
-
-
-</div><div class='slide'>
-
-<h1>Where to Next</h1>
+<h2>Where to Next</h2>
 <ul>
 	<li>Further understanding end-user perspectives and their view of social realities when operating a business on-line from the third world</li>
 	<li>Finalise Database Design</li>
@@ -317,7 +321,14 @@ How do we know that it&#8217;s working?</h1>
 	<li>Generating 1st official ransaction</li>
 	<li>Success, hopefully!</li>
 </ul>
-<li>
+
+
+</div><div class='slide'>
+
+<h1>References</h1>
+<p>(Internet Stats Nepal. In Internet World Stats, 2010). Retrieved February 2, 2010, from http://www.internetworldstats.com/stats3.htm.</p>
+<p>Claire, M. (2006). Telecentres and transformations: modernizing tanzania through the internet. In (p.243-264). African Affairs.</p>
+<p>UNESCO. (2002). Efa global monitoring report.</p>
 
 </div>
 </div> <!-- presentation -->

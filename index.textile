@@ -2,14 +2,23 @@ title: E-Commerce for the developing world
 h1. E-Commerce for the developing world
 
 
-Jonathan Clarke
+p>. Jonathan Clarke
 
-MCT626 Research Presentation
+p>. MCT626 Research Presentation
 
-NUI Galway & Regis University
+p>. NUI Galway & Regis University
 
 
-March 2010
+p>. March 2010
+
+h1. Scope of this presentation
+
+Initial research concludes that developing countries lack basic services which have been taken for granted throughout the world. 
+
+Electricity, Internet access and the availability of merchant banking systems have hindered companies from the developing world operating on the global market.
+
+I propose developing a prototype application which can allow organisations to realise an effective e--commerce strategy despite their environmental location.
+
 
 
 h1. Topics For Discussion
@@ -18,6 +27,8 @@ h1. Topics For Discussion
 * Motivation
 * The Problem
 * Motivation
+* My Aim
+* Case Study
 * Barriers to E-Commerce
 * Prototype Requirements
 * Offline access
@@ -62,11 +73,12 @@ h1. My Aim
 * Create a prototype solution allowing any organisation in the developing world to operate on the Internet
 
 h1. Case Study
+
 * In January 2010, interviewed President of the Women Skill Development Multi Cooperative
 * Cleared many previous assumptions held about the barriers to e-commerce that they were facing as an organization
-* "Case Study.pdf":http://presentation.givefoo.com/files/case_study_001 - "Transcript.pdf":http://presentation.givefoo.com/files/interview_0.1.pdf
+* "Case Study.pdf":http://presentation.givefoo.com/files/case_study_001.pdf - "Transcript.pdf":http://presentation.givefoo.com/files/interview_0.1.pdf
 
-h1. Barriers to E-Commerce
+h2. Barriers to E-Commerce
 
 * Government Policies
 * Internet Access
@@ -117,7 +129,7 @@ h1. Prototype Requirements
 * Initial Prototype to allow Paypal and Authorise.Net
 * Maintain PCI requirements
 * Robust synchronisation from local database to master server and vice versa
-	
+* Support tracking of Fedex packages (UPS also if time permits)
 
 h1. Offline access
 * Desktop native application vs Browser only application	
@@ -128,17 +140,18 @@ h1. Offline access
 
 h1. Enter HTML5
 * W3C Candidate Recommendation stage expected to be complete in 2012
-* Future of the Internet
+* "HTML5":http://dev.w3.org/html5/spec/ is the future of the Internet
 * Allows for offline database support
 * Database stored within Web Browser
 * Simpler end user experience, no need for bulky application
 * Everything in the browser
 
+p<. !http://presentation.givefoo.com/images/offline.png(HTML Offline overview)!
 
 h1. Data Synchronisation
-* Speed is the key. Synchronizing must be complete in seconds, that may be all a user is on the internet for.
+* Speed is the key. Synchronizing must be complete in seconds, that may be all a user is online for.
 * Utilize HTTP Socket Interfaces
-* Pass messages in JSON (JavaScript Object Notation), a lightweight data-interchange format
+* Pass messages in "JSON":http://www.json.org (JavaScript Object Notation), a lightweight data-interchange format
 
 h2. Node.JS
 * "Node.js":http://www.nodejs.org is an evented I/O framework built on top of Google's V8 JavaScript engine.
@@ -160,10 +173,10 @@ How do we know that it's working?
 h1. Everything shall live in the cloud:
 
 * Horizontally scale servers on "Slicehost Virtual Servers":http://www.slicehost.org
-* Amazon Cloudfront for faster content delivery around the world
-* Amazon Simple Storage Service (Amazon S3) for storing all assets
-* MongoDB as the scalable, high-performance, schema-free, document-oriented database
-* Everything hosted on Ruby on Rails for rapid development
+* "Amazon Cloudfront":aws.amazon.com/cloudfront for faster content delivery around the world
+* "Amazon Simple Storage Service (Amazon S3)":https://s3.amazonaws.com for storing all assets
+* "MongoDB":http://www.mongodb.org as the scalable, high-performance, schema-free, document-oriented database
+* Main framework is "Ruby on Rails":http://rubyonrails.org/ for rapid development
 
 p=. <object width="640" height="385"><param name="movie" value="http://www.youtube.com/v/ae_DKNwK_ms&hl=en_US&fs=1&"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/ae_DKNwK_ms&hl=en_US&fs=1&" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="640" height="385"></embed></object>
 
@@ -173,14 +186,14 @@ p=. The non-profit organisation is oblivious to all of this!
 h1. Summary 
 * HTML5 is going to change the web as we see it
 * Node JS is very exciting stuff, with lots of potential. 
-* Sending payments from the customer to the non-profit organisation is the biggest challenge
+* Sending payments from the customer to the non-profit organisation in the developing world is the biggest challenge
 * Utilise open source applications everywhere
 * Taking advantage of the cloud to scale service rapidly if needed
 * Staff in non-profits are not technical whatsoever, adapting my language and approach to gathering information has been huge challenge.
 
 
 
-h1. Where to Next
+h2. Where to Next
 * Further understanding end-user perspectives and their view of social realities when operating a business on-line from the third world
 * Finalise Database Design
 * Designing and developing user interface
@@ -190,4 +203,12 @@ h1. Where to Next
 * Generating 1st official ransaction
 * Success, hopefully!
 	
+
+h1. References
+
+(Internet Stats Nepal. In Internet World Stats, 2010). Retrieved February 2, 2010, from http://www.internetworldstats.com/stats3.htm.
+
+Claire, M. (2006). Telecentres and transformations: modernizing tanzania through the internet. In (p.243-264). African Affairs.
+
+UNESCO. (2002). Efa global monitoring report.
 
