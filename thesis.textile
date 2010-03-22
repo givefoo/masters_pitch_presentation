@@ -1,0 +1,181 @@
+h1. E-Commerce for the developing world
+
+
+Jonathan Clarke
+
+MCT626 Research Presentation
+
+NUI Galway & Regis University
+
+
+March 2010
+
+
+h1. Topics For Discussion
+
+* My Background
+* Motivation
+* The Problem
+* Motivation
+* Barriers to E-Commerce
+* Prototype Requirements
+* Offline access
+* Data Synchronisation
+* Conclusion
+* References
+
+h1. My Background
+
+* Graduated from AIT in B.Sc. Computer & Software Engineering (2003)
+* Postgrad in NUI Galway (2005)
+* Moved to China in 2005, Australia since 2009
+* Have since worked for Google, Bertlesmann, Colt Telecom and Westwick-Farrow
+* Huge fan of open and transparent systems with minimalist user interfaces
+
+h1. Motivation
+
+* Travelled to Kathmandu, Nepal in 2007
+* No electricity for 20 hours each day
+* While the hotel had electricity through a generator much of the city was in darkness
+* No Internet access as phone lines were down.
+* As an Internet addict I suffered, could not imagine working competitively in Nepal
+* Was asked to help build a basic website for the Women Skill Development Multi Cooperative
+* This project failed due to inability to use a popular e-commerce solution
+
+
+h1. The Problem 
+* How modern e-commerce solutions can operate in developing countries 
+* How can this technology be adapted for use by non-skilled users within rural environments.  
+
+h1. My Aim
+
+* Examine the current barriers facing non-profit organisations in the developing world.
+* Investigate how non-profits currently approach the E-Commerce problem
+* Create a prototype solution allowing any organisation in the developing world to operate on the Internet
+
+
+h1. Barriers to E-Commerce
+
+I broke this down into a number of catagories
+* Government Policies
+* Internet Access
+* Language
+* Payment Gateways
+* Logistics
+
+h1. Government Policies
+* In 2010, Nepal entered a sixteen hours daily load shedding schedule. 
+* This has been the norm for well over a decade.
+* Currently 4 -- 8  hours of electricity every day -- the availability of power does not fit within business hours
+* Generators and solar panels in wide use throughout Nepal
+
+h1. Internet Access
+* Internet penetration in Nepal reaches 1.7% of the entire population. (Internet Stats Nepal. In Internet World Stats, 2010) 
+* Slow Internet penetration in any country combined with the lack of a constant electricity supply will always result in a low rural Internet usage. (Claire, 2006)
+* Dial-up only Internet speeds available for many developing countries.
+h1. Language
+* Across the world more than 860 million men and women cannot read or write, it is estimated that 1 out of every 4 people are illiterate in the developing world.(UNESCO, 2002)
+* From the case study I undertook I discovered that almost 50 percent of the organisation is illiterate. 
+* The dominant language is Nepali
+* Could not find any modern open source E-commerce system which supports this language
+
+
+h1. Payment Gateways
+
+* 85 percent of the worlds on-line population has used the Internet to make a purchase
+* 60% of global on-line consumers used their credit card for a recent on-line purchase, while one in four on line consumers chose Paypal. (Trends in Online Shopping. In The Nielsen Company, 2008)
+
+How does cash get from the customer to the organisation?
+
+* Gateways are mainly US focused requiring a US bank account.  
+* Transaction fees are preferable to high monthly fees for smaller transaction rates.
+* The choice of a payment gateway package will be very important for each NGO as policies within these payment gateways may impact the NGOs business and possibly impact any funds transferred.
+
+h1. Logistics
+* Nepal has access to UPS and Fedex in large cities and the national postal service in all cities
+* Rapid growth of e-commerce in the US can be attributed to infrastructure already in place and an easy availability of a physical delivery system. Such systems are very rare in developing countries (Hawk, 2004)
+* Some developing countries still lack proper postal services, difficulties can arise in the delivery of products due to a lack of actual street addresses.(Kshetri, 2007)
+
+!/images/fedex.gif(Fedex)!
+
+h1. Prototype Requirements
+* Allow off-line access to orders, customers and products
+* Simple User Interface
+* Multi-Cultural Interface (Nepali and English)
+* Initial Prototype to allow Paypal and Authorise.Net
+* Maintain PCI requirements
+* Robust synchronisation from local database to master server and vice versa
+	
+
+h1. Offline access
+* Desktop native application vs Browser only application	
+* Low bandwidth environment, application size must be small.
+* No download of 3rd party application (difficult to maintain)
+* Ruled out separate database + Java Virtual Machine
+* Too difficult for non-technical user to install any application
+
+h1. Enter HTML5
+* W3C Candidate Recommendation stage expected to be complete in 2012
+* Future of the Internet
+* Allows for offline database support
+* Database stored within Web Browser
+* Simpler end user experience, no need for bulky application
+* Everything in the browser
+
+
+h1. Data Synchronisation
+* Speed is the key. Synchronizing must be complete in seconds, that may be all a user is on the internet for.
+* Utilize HTTP Socket Interfaces
+* Pass messages in JSON (JavaScript Object Notation), a lightweight data-interchange format
+
+h2. Node.JS
+* Node.js is an evented I/O framework built on top of Google's V8 JavaScript engine.
+* Maintain a Node.js server to accept queries from the browser and return results to the browser
+
+Javascript is universally supported and extremely fast
+
+h1. Testing the prototype
+How do we know that it's working?
+
+* Test, Test, then test some more
+* Write a test before any code is written
+* Use "RSpec":http://rspec.info-- RSpec is a Behaviour Driven Development framework for writing executable code examples.
+* Use "Cucumber":http://www.cukes.info -- Cucumber is a tool that can execute plain-text functional descriptions as automated tests. 
+* Use "Integrity":http://www.integrityapp.com -- A Continuous Integration Testing Server -- Pull from Source Control ("GIT":http://www.github.com), test, send error logs to developer automatically 
+
+
+
+h1. Everything shall live in the cloud:
+
+<object width="640" height="385"><param name="movie" value="http://www.youtube.com/v/ae_DKNwK_ms&hl=en_US&fs=1&"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/ae_DKNwK_ms&hl=en_US&fs=1&" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="640" height="385"></embed></object>
+
+* Horizontally scale servers on Slicehost Virtual Servers
+* Amazon Cloudfront for faster content delivery around the world
+* Amazon Simple Storage Service (Amazon S3) for storing all assets
+* MongoDB as the scalable, high-performance, schema-free, document-oriented database
+* Everything hosted on Ruby on Rails for rapid development
+
+The non-profit organisation is oblivious to all of this!
+
+
+h1. Summary 
+* HTML5 is going to change the web as we see it
+* Node JS is very exciting stuff, with lots of potential. 
+* Sending payments from the customer to the non-profit organisation is the biggest challenge
+* Utilise open source applications everywhere
+* Taking advantage of the cloud to scale service rapidly if needed
+* Staff in non-profits are not technical whatsoever, adapting my language and approach to gathering information has been huge challenge.
+
+
+
+h1. Where to Next
+* Further understanding end-user perspectives and their view of social realities when operating a business on-line from the third world
+* Finalise Database Design
+* Designing and developing user interface
+* Create and maintain all rspec / cucumber cases
+* Bringing everything together, application, payment gateways, logistics, cloud
+* Aid in the creation of first e-commerce shop,  Women Skill Development Multi Cooperative have requested the very first one.
+* Generating 1st official ransaction
+* Success, hopefully!
+	
+
