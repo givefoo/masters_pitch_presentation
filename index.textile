@@ -1,3 +1,4 @@
+title: E-Commerce for the developing world
 h1. E-Commerce for the developing world
 
 
@@ -31,7 +32,11 @@ h1. My Background
 * Moved to China in 2005, Australia since 2009
 * Have since worked for Google, Bertlesmann, Colt Telecom and Westwick-Farrow
 * Huge fan of open and transparent systems with minimalist user interfaces
-p<. !http://presentation.givefoo.com/images/ait.gif(Athlone IT)! !http://presentation.givefoo.com/images/nuig.gif(NUI Galway)! !http://presentation.givefoo.com/images/bertelsmann.png(Bertelsmann)! !http://presentation.givefoo.com/images/google.gif(Google)!  !http://presentation.givefoo.com/images/ge.gif(GE)! !http://presentation.givefoo.com/images/colt.gif(Colt)! !http://presentation.givefoo.com/images/dhc.jpg(Dalian Hi-Think)! !http://presentation.givefoo.com/images/wfmedia.gif(Westwick-Farrow Media)!
+
+
+p=. !http://presentation.givefoo.com/images/ait.gif(Athlone IT)! !http://presentation.givefoo.com/images/nuig.gif(NUI Galway)! !http://presentation.givefoo.com/images/bertelsmann.png(Bertelsmann)! !http://presentation.givefoo.com/images/google.gif(Google)!  !http://presentation.givefoo.com/images/ge.gif(GE)! 
+
+p=. !http://presentation.givefoo.com/images/colt.gif(Colt)! !http://presentation.givefoo.com/images/dhc.jpg(Dalian Hi-Think)! !http://presentation.givefoo.com/images/wfmedia.gif(Westwick-Farrow Media)!
 
 h1. Motivation
 
@@ -43,7 +48,7 @@ h1. Motivation
 * Was asked to help build a basic website for the Women Skill Development Multi Cooperative
 * This project failed due to inability to use a popular e-commerce solution
 
-p<. !http://presentation.givefoo.com/images/face_1.gif(Face of Nepal)!  !http://presentation.givefoo.com/images/face_2.gif(Fishtail Mountain)! !http://presentation.givefoo.com/images/face_3.gif(Nepal Sadhu)!
+p<. !http://presentation.givefoo.com/images/face_1.gif(Face of Nepal)!  !http://presentation.givefoo.com/images/face_2.gif(Fishtail Mountain)! !http://presentation.givefoo.com/images/face_3.gif(Nepal Sadhu)! !http://presentation.givefoo.com/images/face_4.gif(Pashupatinath Temple)!
 
 
 h1. The Problem 
@@ -76,6 +81,7 @@ h1. Internet Access
 * Internet penetration in Nepal reaches 1.7% of the entire population. (Internet Stats Nepal. In Internet World Stats, 2010) 
 * Slow Internet penetration in any country combined with the lack of a constant electricity supply will always result in a low rural Internet usage. (Claire, 2006)
 * Dial-up only Internet speeds available for many developing countries.
+
 h1. Language
 * Across the world more than 860 million men and women cannot read or write, it is estimated that 1 out of every 4 people are illiterate in the developing world.(UNESCO, 2002)
 * From the case study I undertook I discovered that almost 50 percent of the organisation is illiterate. 
@@ -132,7 +138,7 @@ h1. Data Synchronisation
 * Pass messages in JSON (JavaScript Object Notation), a lightweight data-interchange format
 
 h2. Node.JS
-* Node.js is an evented I/O framework built on top of Google's V8 JavaScript engine.
+* "Node.js":http://www.nodejs.org is an evented I/O framework built on top of Google's V8 JavaScript engine.
 * Maintain a Node.js server to accept queries from the browser and return results to the browser
 
 Javascript is universally supported and extremely fast
@@ -150,15 +156,15 @@ How do we know that it's working?
 
 h1. Everything shall live in the cloud:
 
-<object width="640" height="385"><param name="movie" value="http://www.youtube.com/v/ae_DKNwK_ms&hl=en_US&fs=1&"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/ae_DKNwK_ms&hl=en_US&fs=1&" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="640" height="385"></embed></object>
-
-* Horizontally scale servers on Slicehost Virtual Servers
+* Horizontally scale servers on "Slicehost Virtual Servers":http://www.slicehost.org
 * Amazon Cloudfront for faster content delivery around the world
 * Amazon Simple Storage Service (Amazon S3) for storing all assets
 * MongoDB as the scalable, high-performance, schema-free, document-oriented database
 * Everything hosted on Ruby on Rails for rapid development
 
-The non-profit organisation is oblivious to all of this!
+p=. <object width="640" height="385"><param name="movie" value="http://www.youtube.com/v/ae_DKNwK_ms&hl=en_US&fs=1&"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/ae_DKNwK_ms&hl=en_US&fs=1&" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="640" height="385"></embed></object>
+
+p=. The non-profit organisation is oblivious to all of this!
 
 
 h1. Summary 
