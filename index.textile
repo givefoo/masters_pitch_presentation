@@ -31,6 +31,7 @@ h1. My Background
 * Moved to China in 2005, Australia since 2009
 * Have since worked for Google, Bertlesmann, Colt Telecom and Westwick-Farrow
 * Huge fan of open and transparent systems with minimalist user interfaces
+p<. !http://presentation.givefoo.com/images/ait.gif(Athlone IT)! !http://presentation.givefoo.com/images/nuig.gif(NUI Galway)! !http://presentation.givefoo.com/images/bertelsmann.png(Bertelsmann)! !http://presentation.givefoo.com/images/google.gif(Google)!  !http://presentation.givefoo.com/images/ge.gif(GE)! !http://presentation.givefoo.com/images/colt.gif(Colt)! !http://presentation.givefoo.com/images/dhc.jpg(Dalian Hi-Think)! !http://presentation.givefoo.com/images/wfmedia.gif(Westwick-Farrow Media)!
 
 h1. Motivation
 
@@ -42,7 +43,9 @@ h1. Motivation
 * Was asked to help build a basic website for the Women Skill Development Multi Cooperative
 * This project failed due to inability to use a popular e-commerce solution
 
-p=. !http://presentation.givefoo.com/images/face_1.gif(Face of Nepal)!  !http://presentation.givefoo.com/images/face_2.gif(Fishtail Mountain)! !http://presentation.givefoo.com/images/face_3.gif(Nepal Sadhu)!
+p<. !http://presentation.givefoo.com/images/face_1.gif(Face of Nepal)!  !http://presentation.givefoo.com/images/face_2.gif(Fishtail Mountain)! !http://presentation.givefoo.com/images/face_3.gif(Nepal Sadhu)!
+
+
 h1. The Problem 
 * How modern e-commerce solutions can operate in developing countries 
 * How can this technology be adapted for use by non-skilled users within rural environments.  
