@@ -42,7 +42,7 @@ h1. Motivation
 * Was asked to help build a basic website for the Women Skill Development Multi Cooperative
 * This project failed due to inability to use a popular e-commerce solution
 
-
+p=. !http://presentation.givefoo.com/images/face_1.gif(Face of Nepal)!  !http://presentation.givefoo.com/images/face_2.gif(Fishtail Mountain)! !http://presentation.givefoo.com/images/face_3.gif(Nepal Sadhu)!
 h1. The Problem 
 * How modern e-commerce solutions can operate in developing countries 
 * How can this technology be adapted for use by non-skilled users within rural environments.  
