@@ -207,11 +207,19 @@ h1. Where to Next
 
 h1. References
 
-(Internet Stats Nepal. In Internet World Stats, 2010). Retrieved February 2, 2010, from http://www.internetworldstats.com/stats3.htm.
-
 Claire, M. (2006). Telecentres and transformations: modernizing tanzania through the internet. In (p.243-264). African Affairs.
 
+Hawk, S. (2004). A comparison of b2c e-commerce in developing countries. Electronic Commerce Research, 4(3), 181–199.
+
+Internet Stats Nepal. in Internet World Stats. (2010). Retrieved February 2, 2010, from http://www.internetworldstats.com/stats3.htm.
+
+Kshetri, N. (2007). Barriers to e-commerce and competitive business models in developing countries: A case study. Electron. Commer. Rec. Appl., 6(4), 443–452.
+
+Trends in Online Shopping. in The Nielsen Company. (2008). Retrieved December 16, 2009, from http://th.nielsen.com/site/documents/GlobalOnlineShoppingReportFeb08.pdf
+
 UNESCO. (2002). Efa global monitoring report.
+
+
 
 
 <script type="text/javascript">
