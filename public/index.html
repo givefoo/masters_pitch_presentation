@@ -1,352 +1,352 @@
 <!DOCTYPE html>
 <html>
-<head>
-   <meta http-equiv="content-type" content="text/html;charset=utf-8"> 
-   <title>E-Commerce for the developing world</title>
+  <head>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8"> 
+    <title>E-Commerce for the developing world</title>
+  
+    <meta name="generator" content="Slide Show (S9) 1.2.3 on Ruby 1.9.3 (2012-11-10) [x86_64-linux]">
+    <meta name="author"    content="Your Name Here" >
+  
+    <!-- helper/macro that lets you add (CSS3) gradient using headers
+	 see http://slideshow.rubyforge.org/themes.html
+     	 
+      -->
+  
+    <!-- S6 style sheet links -->
+    <link rel="stylesheet" href="/css/index.css" media="projection" id="styleProjection">
+    <link rel="stylesheet" href="/css/screen.css"         media="screen"     id="styleScreen">
+    <link rel="stylesheet" href="/css/print.css"          media="print">
+  
+    <!-- S6 JS -->
+    <script src="/javascripts/jquery.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/javascripts/jquery.slideshow.js" type="text/javascript" charset="utf-8"></script>
+    <script>
+      $(document).ready( function() {
+      Slideshow.init();
+      } );
+    
+    
+    </script>
+  
+    <!-- Better Browser Banner for Microsoft Internet Explorer (IE) -->
+    <!--[if IE]>
+	<script src="/javascripts/jquery.microsoft.js" type="text/javascript" charset="utf-8"></script>
+	<![endif]-->
+  
+  
+  
+  </head>
+  <body>
+  
+    <div class="layout"> 
+      <div id="header"></div>
+      <div id="footer">
+	<h1>Give Foo</h1>
+	<h2></h2>
+      </div>
+    </div>
+  
+    <div class="presentation">
+    
+      <div class='slide '>
 
-<meta name="generator" content="Slide Show (S9) 1.2.3 on Ruby 1.9.3 (2012-11-10) [x86_64-linux]">
-<meta name="author"    content="Your Name Here" >
+	<!-- _S9SLIDE_ -->
+	<h1>E-Commerce for the developing world</h1>
+	<p style="text-align:right;">Jonathan Clarke</p>
+	<p style="text-align:right;">MCT626 Research Presentation</p>
+	<p style="text-align:right;">NUI Galway &amp; Regis University</p>
+	<p style="text-align:right;">22nd March 2010</p>
 
-<!-- helper/macro that lets you add (CSS3) gradient using headers
-     see http://slideshow.rubyforge.org/themes.html
-     
-     -->
+      </div>
+      <div class='slide '>
+	<!-- _S9SLIDE_ -->
+	<h1>Scope of this presentation</h1>
+	<p>Initial research concludes that developing countries lack basic services which have been taken for granted throughout the world.</p>
+	<p>Electricity, Internet access and the availability of merchant banking systems have hindered companies from the developing world operating on the global market.</p>
+	<p>I propose developing a prototype application which can allow organisations to realise an effective e&#8212;commerce strategy despite their environmental location.</p>
 
-<!-- S6 style sheet links -->
-<link rel="stylesheet" href="index.css" media="projection" id="styleProjection">
-<link rel="stylesheet" href="s6/screen.css"         media="screen"     id="styleScreen">
-<link rel="stylesheet" href="s6/print.css"          media="print">
+      </div>
+      <div class='slide '>
+	<!-- _S9SLIDE_ -->
+	<h1>Topics For Discussion</h1>
+	<ul>
+	  <li>My Background</li>
+	  <li>Motivation</li>
+	  <li>The Problem</li>
+	  <li>Motivation</li>
+	  <li>My Aim</li>
+	  <li>Case Study</li>
+	  <li>Barriers to E-Commerce</li>
+	  <li>Prototype Requirements</li>
+	  <li>Offline access</li>
+	  <li>Data Synchronisation</li>
+	  <li>Conclusion</li>
+	  <li>References</li>
+	</ul>
 
-<!-- S6 JS -->
-<script src="s6/jquery.js"></script>
-<script src="s6/jquery.slideshow.js"></script>
-<script>
-  $(document).ready( function() {
-    Slideshow.init();
-  } );
+      </div>
+      <div class='slide '>
+	<!-- _S9SLIDE_ -->
+	<h1>My Background</h1>
+	<ul>
+	  <li>Graduated from AIT in B.Sc. Computer &amp; Software Engineering (2003)</li>
+	  <li>Postgrad in NUI Galway (2005)</li>
+	  <li>Moved to China in 2005, Australia since 2009</li>
+	  <li>Have since worked for Google, Bertlesmann, Dalian Hi-Think, Colt Telecom and Westwick-Farrow</li>
+	  <li>Huge fan of open and transparent systems with minimalist user interfaces</li>
+	</ul>
+	<p style="text-align:center;"><img src="/images/ait.gif" title="Athlone IT" alt="Athlone IT" /> <img src="/images/nuig.gif" title="NUI Galway" alt="NUI Galway" /> <img src="/images/bertelsmann.png" title="Bertelsmann" alt="Bertelsmann" /> <img src="/images/google.gif" title="Google" alt="Google" />  <img src="/images/ge.gif" title="GE" alt="GE" /></p>
+	<p style="text-align:center;"><img src="/images/colt.gif" title="Colt" alt="Colt" /> <img src="/images/dhc.jpg" title="Dalian Hi-Think" alt="Dalian Hi-Think" /> <img src="/images/wfmedia.gif" title="Westwick-Farrow Media" alt="Westwick-Farrow Media" /></p>
 
-  
-</script>
+      </div>
+      <div class='slide '>
+	<!-- _S9SLIDE_ -->
+	<h1>Motivation</h1>
+	<ul>
+	  <li>Travelled to Kathmandu, Nepal in 2007</li>
+	  <li>No electricity for 20 hours each day</li>
+	  <li>While the hotel had electricity through a generator much of the city was in darkness</li>
+	  <li>No Internet access as phone lines were down.</li>
+	  <li>As an Internet addict I suffered, could not imagine working competitively in Nepal</li>
+	  <li>Was asked to help build a basic website for the Women Skill Development Multi Cooperative</li>
+	  <li>This project failed due to inability to use a popular e-commerce solution</li>
+	</ul>
+	<p style="text-align:left;"><img src="/images/face_1.gif" title="Face of Nepal" alt="Face of Nepal" />  <img src="/images/face_2.gif" title="Fishtail Mountain" alt="Fishtail Mountain" /> <img src="/images/face_3.gif" title="Nepal Sadhu" alt="Nepal Sadhu" /> <img src="/images/face_4.gif" title="Pashupatinath Temple" alt="Pashupatinath Temple" /></p>
 
-<!-- Better Browser Banner for Microsoft Internet Explorer (IE) -->
-<!--[if IE]>
-<script src="s6/jquery.microsoft.js"></script>
-<![endif]-->
+      </div>
+      <div class='slide '>
+	<!-- _S9SLIDE_ -->
+	<h1>The Problem</h1>
+	<ul>
+	  <li>How modern e-commerce solutions can operate in developing countries</li>
+	  <li>How can this technology be adapted for use by non-skilled users within rural environments.</li>
+	</ul>
 
+      </div>
+      <div class='slide '>
+	<!-- _S9SLIDE_ -->
+	<h1>My Aim</h1>
+	<ul>
+	  <li>Examine the current barriers facing non-profit organisations in the developing world.</li>
+	  <li>Investigate how non-profits currently approach the E-Commerce problem</li>
+	  <li>Create a prototype solution allowing any organisation in the developing world to operate on the Internet</li>
+	</ul>
 
+      </div>
+      <div class='slide '>
+	<!-- _S9SLIDE_ -->
+	<h1>Case Study</h1>
+	<ul>
+	  <li>In January 2010, interviewed President of the Women Skill Development Multi Cooperative, based in Kathmandu Nepal</li>
+	  <li>Cleared many previous assumptions held about the barriers to e-commerce that they were facing as an organization</li>
+	  <li><a href="files/case_study_001.pdf">Case Study.pdf</a> &#8211; <a href="files/interview_0.1.pdf">Transcript.pdf</a></li>
+	</ul>
+	<p style="text-align:left;"><img src="/images/women_1.jpg" title="Women Skill Development Multi Cooperative" alt="Women Skill Development Multi Cooperative" /> <img src="/images/women_2.jpg" title="Women Skill Development Multi Cooperative" alt="Women Skill Development Multi Cooperative" /> <img src="/images/women_3.jpg" title="Women Skill Development Multi Cooperative" alt="Women Skill Development Multi Cooperative" /> <img src="/images/women_4.jpg" title="Women Skill Development Multi Cooperative" alt="Women Skill Development Multi Cooperative" /> <img src="/images/women_5.jpg" title="Women Skill Development Multi Cooperative" alt="Women Skill Development Multi Cooperative" /></p>
+	<ul>
+	  <li>Some of the products that they produce are a variety of Napkins, Bedsheets, Cushion covers, T-shirts, Wall hangings, Shoes, Dresses, Bags.</li>
+	</ul>
 
-</head>
-<body>
+      </div>
+      <div class='slide '>
+	<!-- _S9SLIDE_ -->
+	<h1>Barriers to E-Commerce</h1>
+	<ul>
+	  <li>Government Policies</li>
+	  <li>Internet Access</li>
+	  <li>Language</li>
+	  <li>Payment Gateways</li>
+	  <li>Logistics</li>
+	</ul>
 
-<div class="layout"> 
-  <div id="header"></div>
-  <div id="footer">
-    <h1>Your Footer Here</h1>
-    <h2>Your Subfooter Here</h2>
-  </div>
-</div>
+      </div>
+      <div class='slide '>
+	<!-- _S9SLIDE_ -->
+	<h1>Government Policies</h1>
+	<ul>
+	  <li>In 2010, Nepal entered a sixteen hours daily load shedding schedule.</li>
+	  <li>This has been the norm for well over a decade.</li>
+	  <li>Currently 4 &#8212; 8  hours of electricity every day &#8212; the availability of power does not fit within business hours</li>
+	  <li>Generators and solar panels in wide use throughout Nepal</li>
+	</ul>
 
-<div class="presentation">
-   
-<div class='slide '>
+      </div>
+      <div class='slide '>
+	<!-- _S9SLIDE_ -->
+	<h1>Internet Access</h1>
+	<ul>
+	  <li>Internet penetration in Nepal reaches 1.7% of the entire population. (Internet Stats Nepal. In Internet World Stats, 2010)</li>
+	  <li>Slow Internet penetration in any country combined with the lack of a constant electricity supply will always result in a low rural Internet usage. (Claire, 2006)</li>
+	  <li>Dial-up only Internet speeds available for many developing countries.</li>
+	</ul>
 
-<!-- _S9SLIDE_ -->
-<h1>E-Commerce for the developing world</h1>
-<p style="text-align:right;">Jonathan Clarke</p>
-<p style="text-align:right;">MCT626 Research Presentation</p>
-<p style="text-align:right;">NUI Galway &amp; Regis University</p>
-<p style="text-align:right;">22nd March 2010</p>
+      </div>
+      <div class='slide '>
+	<!-- _S9SLIDE_ -->
+	<h1>Language</h1>
+	<ul>
+	  <li>Across the world more than 860 million men and women cannot read or write, it is estimated that 1 out of every 4 people are illiterate in the developing world.(UNESCO, 2002)</li>
+	  <li>From the case study I undertook I discovered that almost 50 percent of the organisation within the case study is illiterate.</li>
+	  <li>The dominant language is Nepali</li>
+	  <li>Could not find any modern open source E-commerce system which supports this language</li>
+	</ul>
 
-</div>
-<div class='slide '>
-<!-- _S9SLIDE_ -->
-<h1>Scope of this presentation</h1>
-<p>Initial research concludes that developing countries lack basic services which have been taken for granted throughout the world.</p>
-<p>Electricity, Internet access and the availability of merchant banking systems have hindered companies from the developing world operating on the global market.</p>
-<p>I propose developing a prototype application which can allow organisations to realise an effective e&#8212;commerce strategy despite their environmental location.</p>
+      </div>
+      <div class='slide '>
+	<!-- _S9SLIDE_ -->
+	<h1>Payment Gateways</h1>
+	<ul>
+	  <li>85 percent of the worlds on-line population has used the Internet to make a purchase</li>
+	  <li>60% of global on-line consumers used their credit card for a recent on-line purchase, while one in four on line consumers chose Paypal. (Trends in Online Shopping. In The Nielsen Company, 2008)</li>
+	  <li>How does cash get from the customer to the organisation?</li>
+	  <li>Gateways are mainly US focused requiring a US bank account.</li>
+	  <li>Will the payment gateway transfer to the non-profits bank account?</li>
+	  <li>Transaction fees are preferable to high monthly fees for smaller transaction rates.</li>
+	  <li>The choice of a payment gateway package will be very important for each NGO as policies within these payment gateways may impact the NGOs business and possibly impact any funds transferred.</li>
+	</ul>
+	<p style="text-align:center;"><img src="/images/gateway.gif" title="Payment Gateways" alt="Payment Gateways" /></p>
 
-</div>
-<div class='slide '>
-<!-- _S9SLIDE_ -->
-<h1>Topics For Discussion</h1>
-<ul>
-	<li>My Background</li>
-	<li>Motivation</li>
-	<li>The Problem</li>
-	<li>Motivation</li>
-	<li>My Aim</li>
-	<li>Case Study</li>
-	<li>Barriers to E-Commerce</li>
-	<li>Prototype Requirements</li>
-	<li>Offline access</li>
-	<li>Data Synchronisation</li>
-	<li>Conclusion</li>
-	<li>References</li>
-</ul>
+      </div>
+      <div class='slide '>
+	<!-- _S9SLIDE_ -->
+	<h1>Logistics</h1>
+	<ul>
+	  <li>Nepal has access to UPS and Fedex in large cities and the national postal service in all cities</li>
+	  <li>Rapid growth of e-commerce in the US can be attributed to infrastructure already in place and an easy availability of a physical delivery system. Such systems are very rare in developing countries (Hawk, 2004)</li>
+	  <li>Some developing countries still lack proper postal services, difficulties can arise in the delivery of products due to a lack of actual street addresses.(Kshetri, 2007)</li>
+	</ul>
+	<p style="text-align:center;"><img src="/images/fedex.gif" title="Fedex" alt="Fedex" />  <img src="/images/ups.gif" title="UPS" alt="UPS" /></p>
 
-</div>
-<div class='slide '>
-<!-- _S9SLIDE_ -->
-<h1>My Background</h1>
-<ul>
-	<li>Graduated from AIT in B.Sc. Computer &amp; Software Engineering (2003)</li>
-	<li>Postgrad in NUI Galway (2005)</li>
-	<li>Moved to China in 2005, Australia since 2009</li>
-	<li>Have since worked for Google, Bertlesmann, Dalian Hi-Think, Colt Telecom and Westwick-Farrow</li>
-	<li>Huge fan of open and transparent systems with minimalist user interfaces</li>
-</ul>
-<p style="text-align:center;"><img src="images/ait.gif" title="Athlone IT" alt="Athlone IT" /> <img src="images/nuig.gif" title="NUI Galway" alt="NUI Galway" /> <img src="images/bertelsmann.png" title="Bertelsmann" alt="Bertelsmann" /> <img src="images/google.gif" title="Google" alt="Google" />  <img src="images/ge.gif" title="GE" alt="GE" /></p>
-<p style="text-align:center;"><img src="images/colt.gif" title="Colt" alt="Colt" /> <img src="images/dhc.jpg" title="Dalian Hi-Think" alt="Dalian Hi-Think" /> <img src="images/wfmedia.gif" title="Westwick-Farrow Media" alt="Westwick-Farrow Media" /></p>
+      </div>
+      <div class='slide '>
+	<!-- _S9SLIDE_ -->
+	<h1>Prototype Requirements</h1>
+	<ul>
+	  <li>Allow off-line access to orders, customers and products</li>
+	  <li>Simple User Interface</li>
+	  <li>Multi-Cultural Interface (Nepali and English)</li>
+	  <li>Initial Prototype to allow Paypal and Authorise.Net</li>
+	  <li>Maintain PCI requirements</li>
+	  <li>Robust synchronisation from local database to master server and vice versa</li>
+	  <li>Support tracking of Fedex packages (UPS also if time permits)</li>
+	</ul>
 
-</div>
-<div class='slide '>
-<!-- _S9SLIDE_ -->
-<h1>Motivation</h1>
-<ul>
-	<li>Travelled to Kathmandu, Nepal in 2007</li>
-	<li>No electricity for 20 hours each day</li>
-	<li>While the hotel had electricity through a generator much of the city was in darkness</li>
-	<li>No Internet access as phone lines were down.</li>
-	<li>As an Internet addict I suffered, could not imagine working competitively in Nepal</li>
-	<li>Was asked to help build a basic website for the Women Skill Development Multi Cooperative</li>
-	<li>This project failed due to inability to use a popular e-commerce solution</li>
-</ul>
-<p style="text-align:left;"><img src="images/face_1.gif" title="Face of Nepal" alt="Face of Nepal" />  <img src="images/face_2.gif" title="Fishtail Mountain" alt="Fishtail Mountain" /> <img src="images/face_3.gif" title="Nepal Sadhu" alt="Nepal Sadhu" /> <img src="images/face_4.gif" title="Pashupatinath Temple" alt="Pashupatinath Temple" /></p>
+      </div>
+      <div class='slide '>
+	<!-- _S9SLIDE_ -->
+	<h1>Offline access</h1>
+	<ul>
+	  <li>Desktop native application vs Browser only application</li>
+	  <li>Low bandwidth environment, application size must be small.</li>
+	  <li>No download of 3rd party application (difficult to maintain)</li>
+	  <li>Ruled out separate database + Java Virtual Machine</li>
+	  <li>Too difficult for non-technical user to install any application</li>
+	</ul>
 
-</div>
-<div class='slide '>
-<!-- _S9SLIDE_ -->
-<h1>The Problem</h1>
-<ul>
-	<li>How modern e-commerce solutions can operate in developing countries</li>
-	<li>How can this technology be adapted for use by non-skilled users within rural environments.</li>
-</ul>
+      </div>
+      <div class='slide '>
+	<!-- _S9SLIDE_ -->
+	<h1>Enter HTML5</h1>
+	<ul>
+	  <li>W3C Candidate Recommendation stage expected to be complete in 2012</li>
+	  <li><a href="http://dev.w3.org/html5/spec/">HTML5</a> is the future of the Internet</li>
+	  <li>Allows for offline database support</li>
+	  <li>Database stored within Web Browser</li>
+	  <li>Simpler end user experience, no need for bulky application</li>
+	  <li>Everything in the browser</li>
+	</ul>
+	<p style="text-align:center;"><img src="/images/offline.png" title="HTML Offline overview" alt="HTML Offline overview" /></p>
 
-</div>
-<div class='slide '>
-<!-- _S9SLIDE_ -->
-<h1>My Aim</h1>
-<ul>
-	<li>Examine the current barriers facing non-profit organisations in the developing world.</li>
-	<li>Investigate how non-profits currently approach the E-Commerce problem</li>
-	<li>Create a prototype solution allowing any organisation in the developing world to operate on the Internet</li>
-</ul>
+      </div>
+      <div class='slide '>
+	<!-- _S9SLIDE_ -->
+	<h1>Data Synchronisation</h1>
+	<ul>
+	  <li>Speed is the key. Synchronizing must be complete in seconds, that may be all a user is online for.</li>
+	  <li>Utilize HTTP Socket Interfaces</li>
+	  <li>Pass messages in <a href="http://www.json.org">JSON</a> (JavaScript Object Notation), a lightweight data-interchange format</li>
+	</ul>
+	<h2>Node.JS</h2>
+	<ul>
+	  <li><a href="http://www.nodejs.org">Node.js</a> is an evented I/O framework built on top of Google&#8217;s V8 JavaScript engine.</li>
+	  <li>Maintain a Node.js server to accept queries from the browser and return results to the browser</li>
+	</ul>
+	<p>Javascript is universally supported and extremely fast</p>
 
-</div>
-<div class='slide '>
-<!-- _S9SLIDE_ -->
-<h1>Case Study</h1>
-<ul>
-	<li>In January 2010, interviewed President of the Women Skill Development Multi Cooperative, based in Kathmandu Nepal</li>
-	<li>Cleared many previous assumptions held about the barriers to e-commerce that they were facing as an organization</li>
-	<li><a href="files/case_study_001.pdf">Case Study.pdf</a> &#8211; <a href="files/interview_0.1.pdf">Transcript.pdf</a></li>
-</ul>
-<p style="text-align:left;"><img src="images/women_1.jpg" title="Women Skill Development Multi Cooperative" alt="Women Skill Development Multi Cooperative" /> <img src="images/women_2.jpg" title="Women Skill Development Multi Cooperative" alt="Women Skill Development Multi Cooperative" /> <img src="images/women_3.jpg" title="Women Skill Development Multi Cooperative" alt="Women Skill Development Multi Cooperative" /> <img src="images/women_4.jpg" title="Women Skill Development Multi Cooperative" alt="Women Skill Development Multi Cooperative" /> <img src="images/women_5.jpg" title="Women Skill Development Multi Cooperative" alt="Women Skill Development Multi Cooperative" /></p>
-<ul>
-	<li>Some of the products that they produce are a variety of Napkins, Bedsheets, Cushion covers, T-shirts, Wall hangings, Shoes, Dresses, Bags.</li>
-</ul>
+      </div>
+      <div class='slide '>
+	<!-- _S9SLIDE_ -->
+	<h1>Testing the prototype
+	  How do we know that it&#8217;s working?</h1>
+	<ul>
+	  <li>Test, Test, then test some more</li>
+	  <li>Write a test before any code is written</li>
+	  <li>Use <a href="http://rspec.info">RSpec</a>&#8212; RSpec is a Behaviour Driven Development framework for writing executable code examples.</li>
+	  <li>Use <a href="http://www.cukes.info">Cucumber</a> &#8212; Cucumber is a tool that can execute plain-text functional descriptions as automated tests.</li>
+	  <li>Use <a href="http://www.integrityapp.com">Integrity</a> &#8212; A Continuous Integration Testing Server &#8212; Pull from Source Control (<a href="http://www.github.com">GIT</a>), test, send error logs to developer automatically</li>
+	</ul>
 
-</div>
-<div class='slide '>
-<!-- _S9SLIDE_ -->
-<h1>Barriers to E-Commerce</h1>
-<ul>
-	<li>Government Policies</li>
-	<li>Internet Access</li>
-	<li>Language</li>
-	<li>Payment Gateways</li>
-	<li>Logistics</li>
-</ul>
+      </div>
+      <div class='slide '>
+	<!-- _S9SLIDE_ -->
+	<h1>Everything shall live in the cloud:</h1>
+	<ul>
+	  <li>Horizontally scale servers on <a href="http://www.slicehost.org">Slicehost Virtual Servers</a></li>
+	  <li><a href="aws.amazon.com/cloudfront">Amazon Cloudfront</a> for faster content delivery around the world</li>
+	  <li><a href="https://s3.amazonaws.com" title="Amazon S3">Amazon Simple Storage Service</a> for storing all assets</li>
+	  <li><a href="http://www.mongodb.org">MongoDB</a> as the scalable, high-performance, schema-free, document-oriented database</li>
+	  <li>Main framework is <a href="http://rubyonrails.org/">Ruby on Rails</a> for rapid development</li>
+	</ul>
+	<p style="text-align:center;"><object width="640" height="385"><param name="movie" value="http://www.youtube.com/v/ae_DKNwK_ms&hl=en_US&fs=1&"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/ae_DKNwK_ms&hl=en_US&fs=1&" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="640" height="385"></embed></object></p>
+	<p style="text-align:center;">The non-profit organisation is oblivious to all of this!</p>
 
-</div>
-<div class='slide '>
-<!-- _S9SLIDE_ -->
-<h1>Government Policies</h1>
-<ul>
-	<li>In 2010, Nepal entered a sixteen hours daily load shedding schedule.</li>
-	<li>This has been the norm for well over a decade.</li>
-	<li>Currently 4 &#8212; 8  hours of electricity every day &#8212; the availability of power does not fit within business hours</li>
-	<li>Generators and solar panels in wide use throughout Nepal</li>
-</ul>
+      </div>
+      <div class='slide '>
+	<!-- _S9SLIDE_ -->
+	<h1>Summary</h1>
+	<ul>
+	  <li>HTML5 is going to change the web as we see it</li>
+	  <li>Node JS is very exciting stuff, with lots of potential.</li>
+	  <li>Sending payments from the customer to the non-profit organisation in the developing world is the biggest challenge</li>
+	  <li>Utilise open source applications everywhere</li>
+	  <li>Taking advantage of the cloud to scale service rapidly if needed</li>
+	  <li>Staff in non-profits are not technical whatsoever, adapting my language and approach to gathering information has been huge challenge.</li>
+	</ul>
 
-</div>
-<div class='slide '>
-<!-- _S9SLIDE_ -->
-<h1>Internet Access</h1>
-<ul>
-	<li>Internet penetration in Nepal reaches 1.7% of the entire population. (Internet Stats Nepal. In Internet World Stats, 2010)</li>
-	<li>Slow Internet penetration in any country combined with the lack of a constant electricity supply will always result in a low rural Internet usage. (Claire, 2006)</li>
-	<li>Dial-up only Internet speeds available for many developing countries.</li>
-</ul>
+      </div>
+      <div class='slide '>
+	<!-- _S9SLIDE_ -->
+	<h1>Where to Next</h1>
+	<ul>
+	  <li>Further understanding end-user perspectives and their view of social realities when operating a business on-line from the third world</li>
+	  <li>Finalise Database Design</li>
+	  <li>Designing and developing user interface</li>
+	  <li>Create and maintain all rspec / cucumber cases</li>
+	  <li>Bringing everything together, application, payment gateways, logistics, cloud</li>
+	  <li>Aid in the creation of first e-commerce shop,  Women Skill Development Multi Cooperative have requested the very first one.</li>
+	  <li>Generating 1st official transaction</li>
+	  <li>Success, hopefully!</li>
+	</ul>
 
-</div>
-<div class='slide '>
-<!-- _S9SLIDE_ -->
-<h1>Language</h1>
-<ul>
-	<li>Across the world more than 860 million men and women cannot read or write, it is estimated that 1 out of every 4 people are illiterate in the developing world.(UNESCO, 2002)</li>
-	<li>From the case study I undertook I discovered that almost 50 percent of the organisation within the case study is illiterate.</li>
-	<li>The dominant language is Nepali</li>
-	<li>Could not find any modern open source E-commerce system which supports this language</li>
-</ul>
-
-</div>
-<div class='slide '>
-<!-- _S9SLIDE_ -->
-<h1>Payment Gateways</h1>
-<ul>
-	<li>85 percent of the worlds on-line population has used the Internet to make a purchase</li>
-	<li>60% of global on-line consumers used their credit card for a recent on-line purchase, while one in four on line consumers chose Paypal. (Trends in Online Shopping. In The Nielsen Company, 2008)</li>
-	<li>How does cash get from the customer to the organisation?</li>
-	<li>Gateways are mainly US focused requiring a US bank account.</li>
-	<li>Will the payment gateway transfer to the non-profits bank account?</li>
-	<li>Transaction fees are preferable to high monthly fees for smaller transaction rates.</li>
-	<li>The choice of a payment gateway package will be very important for each NGO as policies within these payment gateways may impact the NGOs business and possibly impact any funds transferred.</li>
-</ul>
-<p style="text-align:center;"><img src="images/gateway.gif" title="Payment Gateways" alt="Payment Gateways" /></p>
-
-</div>
-<div class='slide '>
-<!-- _S9SLIDE_ -->
-<h1>Logistics</h1>
-<ul>
-	<li>Nepal has access to UPS and Fedex in large cities and the national postal service in all cities</li>
-	<li>Rapid growth of e-commerce in the US can be attributed to infrastructure already in place and an easy availability of a physical delivery system. Such systems are very rare in developing countries (Hawk, 2004)</li>
-	<li>Some developing countries still lack proper postal services, difficulties can arise in the delivery of products due to a lack of actual street addresses.(Kshetri, 2007)</li>
-</ul>
-<p style="text-align:center;"><img src="images/fedex.gif" title="Fedex" alt="Fedex" />  <img src="images/ups.gif" title="UPS" alt="UPS" /></p>
-
-</div>
-<div class='slide '>
-<!-- _S9SLIDE_ -->
-<h1>Prototype Requirements</h1>
-<ul>
-	<li>Allow off-line access to orders, customers and products</li>
-	<li>Simple User Interface</li>
-	<li>Multi-Cultural Interface (Nepali and English)</li>
-	<li>Initial Prototype to allow Paypal and Authorise.Net</li>
-	<li>Maintain PCI requirements</li>
-	<li>Robust synchronisation from local database to master server and vice versa</li>
-	<li>Support tracking of Fedex packages (UPS also if time permits)</li>
-</ul>
-
-</div>
-<div class='slide '>
-<!-- _S9SLIDE_ -->
-<h1>Offline access</h1>
-<ul>
-	<li>Desktop native application vs Browser only application</li>
-	<li>Low bandwidth environment, application size must be small.</li>
-	<li>No download of 3rd party application (difficult to maintain)</li>
-	<li>Ruled out separate database + Java Virtual Machine</li>
-	<li>Too difficult for non-technical user to install any application</li>
-</ul>
-
-</div>
-<div class='slide '>
-<!-- _S9SLIDE_ -->
-<h1>Enter HTML5</h1>
-<ul>
-	<li>W3C Candidate Recommendation stage expected to be complete in 2012</li>
-	<li><a href="http://dev.w3.org/html5/spec/">HTML5</a> is the future of the Internet</li>
-	<li>Allows for offline database support</li>
-	<li>Database stored within Web Browser</li>
-	<li>Simpler end user experience, no need for bulky application</li>
-	<li>Everything in the browser</li>
-</ul>
-<p style="text-align:center;"><img src="images/offline.png" title="HTML Offline overview" alt="HTML Offline overview" /></p>
-
-</div>
-<div class='slide '>
-<!-- _S9SLIDE_ -->
-<h1>Data Synchronisation</h1>
-<ul>
-	<li>Speed is the key. Synchronizing must be complete in seconds, that may be all a user is online for.</li>
-	<li>Utilize HTTP Socket Interfaces</li>
-	<li>Pass messages in <a href="http://www.json.org">JSON</a> (JavaScript Object Notation), a lightweight data-interchange format</li>
-</ul>
-<h2>Node.JS</h2>
-<ul>
-	<li><a href="http://www.nodejs.org">Node.js</a> is an evented I/O framework built on top of Google&#8217;s V8 JavaScript engine.</li>
-	<li>Maintain a Node.js server to accept queries from the browser and return results to the browser</li>
-</ul>
-<p>Javascript is universally supported and extremely fast</p>
-
-</div>
-<div class='slide '>
-<!-- _S9SLIDE_ -->
-<h1>Testing the prototype
-How do we know that it&#8217;s working?</h1>
-<ul>
-	<li>Test, Test, then test some more</li>
-	<li>Write a test before any code is written</li>
-	<li>Use <a href="http://rspec.info">RSpec</a>&#8212; RSpec is a Behaviour Driven Development framework for writing executable code examples.</li>
-	<li>Use <a href="http://www.cukes.info">Cucumber</a> &#8212; Cucumber is a tool that can execute plain-text functional descriptions as automated tests.</li>
-	<li>Use <a href="http://www.integrityapp.com">Integrity</a> &#8212; A Continuous Integration Testing Server &#8212; Pull from Source Control (<a href="http://www.github.com">GIT</a>), test, send error logs to developer automatically</li>
-</ul>
-
-</div>
-<div class='slide '>
-<!-- _S9SLIDE_ -->
-<h1>Everything shall live in the cloud:</h1>
-<ul>
-	<li>Horizontally scale servers on <a href="http://www.slicehost.org">Slicehost Virtual Servers</a></li>
-	<li><a href="aws.amazon.com/cloudfront">Amazon Cloudfront</a> for faster content delivery around the world</li>
-	<li><a href="https://s3.amazonaws.com" title="Amazon S3">Amazon Simple Storage Service</a> for storing all assets</li>
-	<li><a href="http://www.mongodb.org">MongoDB</a> as the scalable, high-performance, schema-free, document-oriented database</li>
-	<li>Main framework is <a href="http://rubyonrails.org/">Ruby on Rails</a> for rapid development</li>
-</ul>
-<p style="text-align:center;"><object width="640" height="385"><param name="movie" value="http://www.youtube.com/v/ae_DKNwK_ms&hl=en_US&fs=1&"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/ae_DKNwK_ms&hl=en_US&fs=1&" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="640" height="385"></embed></object></p>
-<p style="text-align:center;">The non-profit organisation is oblivious to all of this!</p>
-
-</div>
-<div class='slide '>
-<!-- _S9SLIDE_ -->
-<h1>Summary</h1>
-<ul>
-	<li>HTML5 is going to change the web as we see it</li>
-	<li>Node JS is very exciting stuff, with lots of potential.</li>
-	<li>Sending payments from the customer to the non-profit organisation in the developing world is the biggest challenge</li>
-	<li>Utilise open source applications everywhere</li>
-	<li>Taking advantage of the cloud to scale service rapidly if needed</li>
-	<li>Staff in non-profits are not technical whatsoever, adapting my language and approach to gathering information has been huge challenge.</li>
-</ul>
-
-</div>
-<div class='slide '>
-<!-- _S9SLIDE_ -->
-<h1>Where to Next</h1>
-<ul>
-	<li>Further understanding end-user perspectives and their view of social realities when operating a business on-line from the third world</li>
-	<li>Finalise Database Design</li>
-	<li>Designing and developing user interface</li>
-	<li>Create and maintain all rspec / cucumber cases</li>
-	<li>Bringing everything together, application, payment gateways, logistics, cloud</li>
-	<li>Aid in the creation of first e-commerce shop,  Women Skill Development Multi Cooperative have requested the very first one.</li>
-	<li>Generating 1st official transaction</li>
-	<li>Success, hopefully!</li>
-</ul>
-
-</div>
-<div class='slide '>
-<!-- _S9SLIDE_ -->
-<h1>References</h1>
-<p>Claire, M. (2006). Telecentres and transformations: modernizing tanzania through the internet. In (p.243-264). African Affairs.</p>
-<p>Hawk, S. (2004). A comparison of b2c e-commerce in developing countries. Electronic Commerce Research, 4(3), 181 &#8211; 199.</p>
-<p>Internet Stats Nepal. in Internet World Stats. (2010). Retrieved February 2, 2010, from http://www.internetworldstats.com/stats3.htm.</p>
-<p>Kshetri, N. (2007). Barriers to e-commerce and competitive business models in developing countries: A case study. Electron. Commer. Rec. Appl., 6(4), 443 &#8211; 452.</p>
-<p>Trends in Online Shopping. in The Nielsen Company. (2008). Retrieved December 16, 2009, from http://th.nielsen.com/site/documents/GlobalOnlineShoppingReportFeb08.pdf</p>
-<p>UNESCO. (2002). Efa global monitoring report.</p>
-<script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script><script type="text/javascript">
-try {
-var pageTracker = _gat._getTracker("UA-9950707-2");
-pageTracker._trackPageview();
-} catch(err) {}</script></div>
-
-
-</div><!-- presentation -->
-</body>
+      </div>
+      <div class='slide '>
+	<!-- _S9SLIDE_ -->
+	<h1>References</h1>
+	<p>Claire, M. (2006). Telecentres and transformations: modernizing tanzania through the internet. In (p.243-264). African Affairs.</p>
+	<p>Hawk, S. (2004). A comparison of b2c e-commerce in developing countries. Electronic Commerce Research, 4(3), 181 &#8211; 199.</p>
+	<p>Internet Stats Nepal. in Internet World Stats. (2010). Retrieved February 2, 2010, from http://www.internetworldstats.com/stats3.htm.</p>
+	<p>Kshetri, N. (2007). Barriers to e-commerce and competitive business models in developing countries: A case study. Electron. Commer. Rec. Appl., 6(4), 443 &#8211; 452.</p>
+	<p>Trends in Online Shopping. in The Nielsen Company. (2008). Retrieved December 16, 2009, from http://th.nielsen.com/site/documents/GlobalOnlineShoppingReportFeb08.pdf</p>
+	<p>UNESCO. (2002). Efa global monitoring report.</p>
+	<script type="text/javascript">
+	  var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+	  document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	</script><script type="text/javascript">
+	  try {
+	  var pageTracker = _gat._getTracker("UA-9950707-2");
+	  pageTracker._trackPageview();
+	  } catch(err) {}</script></div>
+    
+    
+    </div><!-- presentation -->
+  </body>
 </html>
