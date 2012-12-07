@@ -45,9 +45,9 @@ h1. My Background
 * Huge fan of open and transparent systems with minimalist user interfaces
 
 
-p=. !http://presentation.givefoo.com/images/ait.gif(Athlone IT)! !http://presentation.givefoo.com/images/nuig.gif(NUI Galway)! !http://presentation.givefoo.com/images/bertelsmann.png(Bertelsmann)! !http://presentation.givefoo.com/images/google.gif(Google)!  !http://presentation.givefoo.com/images/ge.gif(GE)! 
+p=. !images/ait.gif(Athlone IT)! !images/nuig.gif(NUI Galway)! !images/bertelsmann.png(Bertelsmann)! !images/google.gif(Google)!  !images/ge.gif(GE)! 
 
-p=. !http://presentation.givefoo.com/images/colt.gif(Colt)! !http://presentation.givefoo.com/images/dhc.jpg(Dalian Hi-Think)! !http://presentation.givefoo.com/images/wfmedia.gif(Westwick-Farrow Media)!
+p=. !images/colt.gif(Colt)! !images/dhc.jpg(Dalian Hi-Think)! !images/wfmedia.gif(Westwick-Farrow Media)!
 
 h1. Motivation
 
@@ -59,7 +59,7 @@ h1. Motivation
 * Was asked to help build a basic website for the Women Skill Development Multi Cooperative
 * This project failed due to inability to use a popular e-commerce solution
 
-p<. !http://presentation.givefoo.com/images/face_1.gif(Face of Nepal)!  !http://presentation.givefoo.com/images/face_2.gif(Fishtail Mountain)! !http://presentation.givefoo.com/images/face_3.gif(Nepal Sadhu)! !http://presentation.givefoo.com/images/face_4.gif(Pashupatinath Temple)!
+p<. !images/face_1.gif(Face of Nepal)!  !images/face_2.gif(Fishtail Mountain)! !images/face_3.gif(Nepal Sadhu)! !images/face_4.gif(Pashupatinath Temple)!
 
 
 h1. The Problem 
@@ -76,9 +76,9 @@ h1. Case Study
 
 * In January 2010, interviewed President of the Women Skill Development Multi Cooperative, based in Kathmandu Nepal
 * Cleared many previous assumptions held about the barriers to e-commerce that they were facing as an organization
-* "Case Study.pdf":http://presentation.givefoo.com/files/case_study_001.pdf - "Transcript.pdf":http://presentation.givefoo.com/files/interview_0.1.pdf
+* "Case Study.pdf":files/case_study_001.pdf - "Transcript.pdf":files/interview_0.1.pdf
 
-p<. !http://presentation.givefoo.com/images/women_1.jpg(Women Skill Development Multi Cooperative)! !http://presentation.givefoo.com/images/women_2.jpg(Women Skill Development Multi Cooperative)! !http://presentation.givefoo.com/images/women_3.jpg(Women Skill Development Multi Cooperative)! !http://presentation.givefoo.com/images/women_4.jpg(Women Skill Development Multi Cooperative)! !http://presentation.givefoo.com/images/women_5.jpg(Women Skill Development Multi Cooperative)!
+p<. !images/women_1.jpg(Women Skill Development Multi Cooperative)! !images/women_2.jpg(Women Skill Development Multi Cooperative)! !images/women_3.jpg(Women Skill Development Multi Cooperative)! !images/women_4.jpg(Women Skill Development Multi Cooperative)! !images/women_5.jpg(Women Skill Development Multi Cooperative)!
 
 * Some of the products that they produce are a variety of Napkins, Bedsheets, Cushion covers, T-shirts, Wall hangings, Shoes, Dresses, Bags.
 
@@ -118,14 +118,14 @@ h1. Payment Gateways
 * Transaction fees are preferable to high monthly fees for smaller transaction rates.
 * The choice of a payment gateway package will be very important for each NGO as policies within these payment gateways may impact the NGOs business and possibly impact any funds transferred.
 
-p=. !http://presentation.givefoo.com/images/gateway.gif(Payment Gateways)!
+p=. !images/gateway.gif(Payment Gateways)!
 
 h1. Logistics
 * Nepal has access to UPS and Fedex in large cities and the national postal service in all cities
 * Rapid growth of e-commerce in the US can be attributed to infrastructure already in place and an easy availability of a physical delivery system. Such systems are very rare in developing countries (Hawk, 2004)
 * Some developing countries still lack proper postal services, difficulties can arise in the delivery of products due to a lack of actual street addresses.(Kshetri, 2007)
 
-p=. !http://presentation.givefoo.com/images/fedex.gif(Fedex)!  !http://presentation.givefoo.com/images/ups.gif(UPS)!
+p=. !images/fedex.gif(Fedex)!  !images/ups.gif(UPS)!
 
 h1. Prototype Requirements
 * Allow off-line access to orders, customers and products
@@ -151,7 +151,7 @@ h1. Enter HTML5
 * Simpler end user experience, no need for bulky application
 * Everything in the browser
 
-p=. !http://presentation.givefoo.com/images/offline.png(HTML Offline overview)!
+p=. !images/offline.png(HTML Offline overview)!
 
 h1. Data Synchronisation
 * Speed is the key. Synchronizing must be complete in seconds, that may be all a user is online for.
